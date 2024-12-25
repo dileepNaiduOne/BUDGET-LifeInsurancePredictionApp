@@ -4,3 +4,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap');
+
+* {
+        font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+}
+
+html, body, p [class*="css"] {
+        font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+}
+
+p, ul, li, div {
+        font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, [class*="css"] {
+        font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+}
