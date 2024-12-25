@@ -17,9 +17,15 @@ with c2:
     st.divider()
 
     st.title(":gray[Predict with:]", anchor=False)
-    bs = st.pills("SELECT", ["My Data", "Random Data"], label_visibility="collapsed", selection_mode="single")
 
-    if bs == "My Data":
-        st.switch_page("papers/data_page.py")
-    elif bs == "Random Data":
-        st.switch_page("papers/random_page.py")
+    cc1, cc2, cc3 = st.columns([1.5, 2, 5])
+
+    with cc1:
+        b2 = st.button("My Data", type="primary")
+        if b2:
+            st.switch_page("papers/data_page.py")
+
+    with cc2:
+        b3 = st.button("Random Data", type="primary")
+        if b3:
+            st.switch_page("papers/random_page.py")
