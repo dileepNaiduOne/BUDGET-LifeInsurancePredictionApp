@@ -80,3 +80,8 @@ h1, h2, h3, h4, h5, h6, [class*="css"] {
 [data-testid="stBaseButton-pills"]:active {
     transform: scale(0.9);
 }
+
+[data-testid="stBaseButton-pills"]:focus {
+    background-color: #F2F2F2;
+    color: #2c2e2e;
+}

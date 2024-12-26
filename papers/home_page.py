@@ -18,7 +18,7 @@ with c2:
 
     st.title(":gray[Predict with:]", anchor=False)
 
-    cc1, cc2, cc3 = st.columns([1.5, 2, 5])
+    cc1, cc2, cc3 = st.columns([2, 3, 5])
 
     with cc1:
         b2 = st.button("My Data", type="primary")
